@@ -4,9 +4,9 @@ package com.github.tanacasino
 package object eucalyptuscala {
 
   trait ROD {
-    def Endpoint: String
-    def AccessKeyId: String = "AWS_ACCESS_KEY"
-    def SecretAccessKey: String = "AWS_SECRET_KEY"
+    val Endpoint: String
+    val AccessKeyId: String = "AWS_ACCESS_KEY"
+    val SecretAccessKey: String = "AWS_SECRET_KEY"
 
     // R.O.D!!!
     def readOrDie: (String, String, String) =
