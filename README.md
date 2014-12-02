@@ -4,6 +4,7 @@ Call Eucalyptus API on Scala REPL.
 
 Require JRE 1.7 or later.
 
+![eucalyptuscala screen capture](examples/eucalyptuscala.png)
 
 ## How to use
 
